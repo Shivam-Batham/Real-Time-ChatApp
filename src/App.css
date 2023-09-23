@@ -38,3 +38,13 @@
   overflow-y:auto;
   border: 1px solid black;
 }
+
+.google{
+  display: flex;
+  /* margin-top: 10%; */
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(228, 248, 248);
+}

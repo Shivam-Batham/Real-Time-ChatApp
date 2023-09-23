@@ -69,12 +69,13 @@ function App() {
   return (
     <div>
       {user.email? null: <div>
+      <h2 className="google">Sign up</h2>
         {/* <input
           type="text"
           placeholder="Enter user to start"
           onBlur={(e) => setUser(e.target.value)}
         ></input> */}
-        <button onClick={e=>{googleLogin()}}>Google SignIn</button>
+        <button className="google" onClick={e=>{googleLogin()}}>Google SignIn</button>
       </div>}
    { user.email? <div>
       <h3>User: {user.name}</h3>
