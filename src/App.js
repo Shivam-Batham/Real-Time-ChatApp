@@ -75,7 +75,7 @@ function App() {
           placeholder="Enter user to start"
           onBlur={(e) => setUser(e.target.value)}
         ></input> */}
-        <button className="google" onClick={e=>{googleLogin()}}>Google SignIn</button>
+        <button className="google" onClick={e=>{googleLogin()}}>Google Sign In</button>
       </div>}
    { user.email? <div>
       <h3>User: {user.name}</h3>
